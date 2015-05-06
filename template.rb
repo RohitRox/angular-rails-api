@@ -2,8 +2,8 @@ gem 'jbuilder'
 
 gem_group :development, :test do
   gem 'rspec-rails'
-  gem 'jazz_hands'
-  gem 'spring'
+  gem 'pry'
+  gem 'pry-byebug'
 end
 
 generate 'rspec:install'
